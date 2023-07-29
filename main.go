@@ -2,10 +2,10 @@ package puppy
 
 import "fmt"
 
-func sayHello() {
+func SayHello() {
 	fmt.Println("Hello There")
 }
 
-func sayName() {
+func SayName() {
 	fmt.Println("Vaibhav")
 }
