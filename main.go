@@ -1,7 +1,11 @@
-package main
+package puppy
 
 import "fmt"
 
-func main() {
+func sayHello() {
 	fmt.Println("Hello There")
+}
+
+func sayName() {
+	fmt.Println("Vaibhav")
 }
