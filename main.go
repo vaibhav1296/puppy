@@ -1,11 +1,13 @@
 package puppy
 
-import "fmt"
+func SayHello() string {
 
-func SayHello() {
-	fmt.Println("Hello There")
+	a := "Vaibhav"
+
+	return a
 }
 
-func SayName() {
-	fmt.Println("Vaibhav")
+func SayName() string {
+	b := "Sharma"
+	return b
 }
